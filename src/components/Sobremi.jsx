@@ -26,7 +26,7 @@ function Sobremi() {
                 ¿Por qué escogernos?
               </h2>
 
-              <p className="text-xl mx-5">
+              <p className="text-xl mx-5 font-inter">
                 Nos especializamos en el desarrollo de páginas web que no solo
                 cumplen, sino que superan las expectativas de nuestros clientes.
                 Nuestra experiencia en diseño UX/UI nos permite crear sitios web

@@ -2,7 +2,7 @@ import React from "react";
 
 function Questions() {
   return (
-    <div className="presentation">
+    <div className="presentation" id="faq">
       <div className="flex flex-col my-10 flex items-center">
         <h2 className="text-3xl md:text-3xl lg:text-4xl md:max-w-lg font-bold text-zinc-800 ">
           Preguntas frequentes
@@ -11,8 +11,8 @@ function Questions() {
       <div class="bg-white border border-gray-200 divide-y divide-gray-200 rounded-xl m-12">
         <details class="p-6 group">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h5 class="text-lg font-medium text-gray-900">
-              ¿Cuanto tiempo demora en estar mi pagina web lista?
+            <h5 class="text-2xl font-medium text-gray-900">
+              ¿Cuánto tiempo demora en estar mi página web lista?
             </h5>
 
             <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
@@ -48,15 +48,15 @@ function Questions() {
             </span>
           </summary>
 
-          <p class="mt-4 leading-relaxed text-gray-700">
-            La pagina web puede estar lista alrededor de 15 días, dependiendo de
+          <p class="mt-4 text-lg leading-relaxed text-gray-700 font-inter">
+            Tu sitio web puede estar listo alrededor de 15 días, dependiendo de
             los requerimientos de la misma.
           </p>
         </details>
 
         <details class="p-6 group">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h5 class="text-lg font-medium text-gray-900">
+            <h5 class="text-2xl font-medium text-gray-900">
               ¿Se paga una sola vez por año?
             </h5>
 
@@ -93,12 +93,16 @@ function Questions() {
             </span>
           </summary>
 
-          <p class="mt-4 leading-relaxed text-gray-700">¡Sí! Solo pagas una sola vez por año por tu página web. Despues de un año tiene un costo de $50.000 para permanecer en linea por otro año más.</p>
+          <p class="mt-4 text-lg leading-relaxed text-gray-700 font-inter">
+            ¡Sí! Solo pagas una sola vez por año por tu página web. Después de
+            un año tiene un costo de $50.000 para permanecer en línea por otro
+            año más.
+          </p>
         </details>
 
         <details class="p-6 group">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h5 class="text-lg font-medium text-gray-900">
+            <h5 class="text-2xl font-medium text-gray-900">
               ¿Tienen conexión a redes sociales?
             </h5>
 
@@ -135,15 +139,16 @@ function Questions() {
             </span>
           </summary>
 
-          <p class="mt-4 leading-relaxed text-gray-700">
+          <p class="mt-4 text-lg leading-relaxed text-gray-700 font-inter">
             Todas las páginas nuestras tienen conexiones a redes sociales por
             defecto, incluso link directo a WhatsApp.
           </p>
         </details>
         <details class="p-6 group">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h5 class="text-lg font-medium text-gray-900">
-              ¿Puedo cambiar la extensión de mi pagina web a otro en vez de ".com"?
+            <h5 class="text-2xl font-medium text-gray-900">
+              ¿Puedo cambiar la extensión de mi pagina web a otro en vez de
+              ".com"?
             </h5>
 
             <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
@@ -179,13 +184,15 @@ function Questions() {
             </span>
           </summary>
 
-          <p class="mt-4 leading-relaxed text-gray-700">
-            ¡Por supuesto! Puedes cambiar la extensión de tu página web a ".cl", ".co", ".ar", ect. Pero tiene un costo adicional de $10.000, único pago.
+          <p class="mt-4 text-lg leading-relaxed text-gray-700 font-inter">
+            ¡Por supuesto! Puedes cambiar la extensión de tu página web a ".cl",
+            ".co", ".ar", etc. Pero tiene un costo adicional de $10.000, único
+            pago.
           </p>
         </details>
         <details class="p-6 group">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h5 class="text-lg font-medium text-gray-900">
+            <h5 class="text-2xl font-medium text-gray-900">
               ¿Cual es la diferencia entre dominio y hosting?
             </h5>
 
@@ -222,8 +229,10 @@ function Questions() {
             </span>
           </summary>
 
-          <p class="mt-4 leading-relaxed text-gray-700">
-            El hosting es un espacio limitado en el internet para poder colocar tu sitio web. En cambio el hosting es la dirección con el cual ingresas al dominio, como la dirección a una casa.
+          <p class="mt-4 text-lg leading-relaxed text-gray-700 font-inter">
+            El hosting es un espacio limitado en el internet para poder colocar
+            tu sitio web. En cambio, el hosting es la dirección con el cual
+            ingresas al dominio, como la dirección a una casa.
           </p>
         </details>
       </div>
