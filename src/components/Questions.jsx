@@ -95,7 +95,7 @@ function Questions() {
 
           <p className="mt-4 text-lg leading-relaxed text-gray-700 font-inter">
             ¡Sí! Solo pagas una sola vez por año por tu página web. Después de
-            un año tiene un costo de $50.000 para permanecer en línea por otro
+            un año tiene un costo de $50 USD para permanecer en línea por otro
             año más.
           </p>
         </details>
@@ -186,8 +186,7 @@ function Questions() {
 
           <p className="mt-4 text-lg leading-relaxed text-gray-700 font-inter">
             ¡Por supuesto! Puedes cambiar la extensión de tu página web a ".cl",
-            ".co", ".ar", etc. Pero tiene un costo adicional de $10.000, único
-            pago.
+            ".co", ".ar", etc.
           </p>
         </details>
         <details className="p-6 group">
