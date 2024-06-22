@@ -10,11 +10,6 @@ function Whatsapp() {
           </span>
           <span class="block mt-2 text-2xl font-extrabold leading-8 text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
             Contáctanos a través de nuestro WhatsApp personal{" "}
-            <img
-              src="https://i.postimg.cc/6pz6Tz0X/whatsapp.jpg"
-              alt="whatsapp icon"
-              className="w-10"
-            />
           </span>
         </h2>
 
