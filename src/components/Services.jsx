@@ -14,7 +14,7 @@ function Services() {
             <div className="flex flex-col gap-y-2.5 items-center">
               <img  className ="w-20" src="https://i.postimg.cc/vZhk5Nk0/shopping-bag-24dp-FILL0-wght400-GRAD0-opsz24.png" alt="landing page icon" />
               <h3 className="text-2xl font-bold">Landing page</h3>
-              <p className="text-xl font-semibold">$100.000 CLP</p>
+              <p className="text-xl font-semibold">$100.000 <span className="font-bold">CLP</span></p>
               <ul className="list-disc mx-4">
                 <li className="my-2">Enfocada en un solo producto</li>
                 <li className="my-2">
@@ -31,7 +31,7 @@ function Services() {
             <div className="flex flex-col gap-y-2.5 items-center">
             <img  className ="w-20" src="https://i.postimg.cc/K8Gsc5jB/co-present-24dp-FILL0-wght400-GRAD0-opsz24.png" alt="website icon" />
               <h3 className="text-2xl font-bold">Sitio Web</h3>
-              <p className="text-xl font-semibold">$200.000 CLP</p>
+              <p className="text-xl font-semibold">$200.000 <span className="font-bold">CLP</span></p>
               <ul className="list-disc mx-4">
                 <li className="my-2">2GB de almacenamiento</li>
                 <li className="my-2">2 Cambios mensuales</li>
@@ -50,7 +50,7 @@ function Services() {
             <div className="flex flex-col gap-y-2.5 items-center">
             <img  className ="w-20" src="https://i.postimg.cc/9Ftnjkmc/store-24dp-FILL0-wght400-GRAD0-opsz24.png" alt="ecommerce icon" />
               <h3 className="text-2xl font-bold">Tienda Virtual</h3>
-              <p className="text-xl font-semibold">250.000 CLP</p>
+              <p className="text-xl font-semibold">250.000 <span className="font-bold">CLP</span></p>
               <ul className="list-disc mx-4">
                 <li className="my-2">4GB de Almacenamiento</li>
                 <li className="my-2">4 Cambios mensuales</li>

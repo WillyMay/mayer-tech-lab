@@ -15,12 +15,12 @@ function Hero() {
 
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center animate-fade-up p-4">
         <h1 className="text-6xl font-bold leading-tight mb-4 px-10 lg:text-8xl drop-shadow-sm	text-blue-500 oswald-font uppercase">
-          El mejor sitio web
+          Tu Marca
         </h1>
         <h2 className="text-4xl text-gray-100 mb-8 px-10 font-bold">
-          para cumplir tus metas.
+          ahora en línea.
         </h2>
-        <h3 className="text-2xl font-semibold px-10">
+        <h3 className="text-2xl font-semibold px-10 oswald-font">
           ¡Consigue el mejor sitio web para tu emprendimiento en el menor precio
           y tiempo posible!
         </h3>
